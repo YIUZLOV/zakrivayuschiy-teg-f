@@ -13,6 +13,15 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
+@supports (font-variation-settings: normal) {
+  .page {
+    font-variation-settings: 'wght' var(--font-wght-text);
+  }
+
+  .card__header {
+    font-variation-settings: 'wght' var(--font-wght-accent);
+  }
+}
 
 .page {
   min-inline-size: 320px;
