@@ -13,11 +13,13 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
-@supports (font-variation-settings: normal) {
+@supports (font-variation-settings: 'wght' var(--font-wght-text)) {
   .page {
     font-variation-settings: 'wght' var(--font-wght-text);
   }
+}
 
+@supports (font-variation-settings: 'wght' var(--font-wght-accent)) {
   .card__header {
     font-variation-settings: 'wght' var(--font-wght-accent);
   }
