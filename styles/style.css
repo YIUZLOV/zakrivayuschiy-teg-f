@@ -18,7 +18,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-text);
-  font-weight: var(--font-wght-text);
+  font-variation-settings: 'wght' var(--font-wght-text);
   background-color: var(--bg-color);
   color: var(--color-accent);
   background-image: var(--bg-image);
@@ -79,7 +79,7 @@
   width: 0;
   height: 3px;
   margin-block-end: -1px;
-  background-color: var(--color-accent);;
+  background-color: var(--color-accent);
   transition: width 0.3s;
 }
 
@@ -128,8 +128,9 @@
 
 .card__header {
   padding: 5px 24px 4px 10px;
-  font-weight: var(--font-wght-accent);
-  font-size: var(--font-size-text);line-height: 21.78px;
+  font-variation-settings: 'wght' var(--font-wght-accent);
+  font-size: var(--font-size-text);
+  line-height: 21.78px;
 }
 
 .card-cover {
@@ -456,7 +457,6 @@
   gap: 8px;
   inline-size: 100%;
   padding-block: 12.5px;
-  margin: 0;
   margin: auto;
   background-color: var(--bg-color);
   border: var(--border);
