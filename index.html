@@ -274,13 +274,12 @@
           </svg>
           <p class="modal__text">Вставьте дискету, чтобы продолжить</p>
         </div>
-        <button 
-          class="modal__button"
-          type="submit" 
-          onclick="window['dialog'].close()" 
-          aria-controls="dialog"> 
-          <span class="button-save__text">Ок</span>
-        </button>
+        <form method="dialog">
+          <button 
+            class="modal__button"> 
+            <span class="button-save__text">Ок</span>
+          </button>
+        </form>
       </article>
     </dialog>
     <script src="./scripts/like.js"></script>
