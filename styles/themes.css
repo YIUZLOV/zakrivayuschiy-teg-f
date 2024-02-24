@@ -6,7 +6,7 @@
 */
 :root.theme-light {
   --font-text: 'Inter', sans-serif;
-  --font-accent: 'PressStart2P', sans-serif;
+  --font-accent: 'PressStart2P', fantasy;
   --font-size-text: 18px;
   --font-wght-text: 400;
   --font-wght-accent: 700;
@@ -18,8 +18,20 @@
   --button-text: #fff;
   --button-hover: #000;
   --button-shadow: 2px 2px 0 0 #000;
-  --bg-image: repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
-    repeating-linear-gradient(#d3d3d3, transparent 2px),
+  --bg-image: 
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+      ),
+    repeating-linear-gradient(
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+      ),
     linear-gradient(#e7e7e7 0.01%, #1a1a1a);
   --container-inline-size: clamp(375px, 50%, 700px);
   --contour-heart: #000;
@@ -29,7 +41,7 @@
 
 :root.theme-dark {
   --font-text: 'Inter', sans-serif;
-  --font-accent: 'PressStart2P', sans-serif;
+  --font-accent: 'PressStart2P', fantasy;
   --font-size-text: 18px;
   --font-wght-text: 465;
   --font-wght-accent: 785;
@@ -41,9 +53,21 @@
   --button-text: #00CC14;
   --button-hover: #00CC14;
   --button-shadow: 2px 2px 0 0 #00CC14;
-  --bg-image: repeating-linear-gradient(to right, #000, transparent 2px),
-  repeating-linear-gradient(#000, transparent 2px),
-  linear-gradient(#007f0c 0.01%, #004306);
+  --bg-image: 
+    repeating-linear-gradient(
+      to right,
+      #000,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+      ),
+    repeating-linear-gradient(
+      #000,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+      ),
+    linear-gradient(#007f0c 0.01%, #004306);
   --container-inline-size: clamp(375px, 50%, 700px);
   --contour-heart: #00CC14;
   --heart-color: #FF0000;
@@ -53,7 +77,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
   --font-text: 'Inter', sans-serif;
-  --font-accent: 'PressStart2P', sans-serif;
+  --font-accent: 'PressStart2P', fantasy;
   --font-size-text: 18px;
   --font-wght-text: 465;
   --font-wght-accent: 785;
@@ -65,8 +89,20 @@
   --button-text: #00CC14;
   --button-hover: #00CC14;
   --button-shadow: 2px 2px 0 0 #00CC14;
-  --bg-image: repeating-linear-gradient(to right, #000, transparent 2px),
-  repeating-linear-gradient(#000, transparent 2px),
+  --bg-image: 
+    repeating-linear-gradient(
+      to right,
+      #000,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+      ),
+    repeating-linear-gradient(
+      #000,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+      ),
   linear-gradient(#007f0c 0.01%, #004306);
   --container-inline-size: clamp(375px, 50%, 700px);
   --contour-heart: #00CC14;

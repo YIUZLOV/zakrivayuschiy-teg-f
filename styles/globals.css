@@ -40,10 +40,11 @@ input {
   margin: 0;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
-button {
-  cursor: pointer;
+button:focus {
+  outline: none;
 }
 
 ul,
