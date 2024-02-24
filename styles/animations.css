@@ -14,6 +14,39 @@
 */
 
 /*Анимация сердца*/
+.card__icon-button {
+  border: var(--border-default);
+  transition: border 0.3s ease;
+}
+
+.card__icon-button:focus-visible {
+  border: var(--border);
+}
+
+.like-icon {
+  inline-size: 33px;
+  block-size: 30px;
+}
+
+.contour {
+  fill: var(--contour-heart);
+  transition: fill 0.1s linear;
+}
+
+.main-body {
+  transition: fill 0.3s linear;
+  fill: transparent;
+}
+
+.core {
+  fill: transparent;
+  transition: fill 0.3s 0.03s linear;
+}
+
+.sparks {
+  opacity: 0;
+}
+
 .like-icon:hover .main-body {
   fill: var(--contour-heart);
   transition: fill 0.3s 0.05s linear;
