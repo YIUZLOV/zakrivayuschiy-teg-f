@@ -1,1 +1,2 @@
-https://github.com/YIUZLOV/zakrivayuschiy-teg-f.git
+Сайт опубликован:
+https://yiuzlov.github.io/zakrivayuschiy-teg-f/
